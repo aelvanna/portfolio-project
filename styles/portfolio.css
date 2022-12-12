@@ -1,11 +1,18 @@
 :root {
+  --body-bg-color: #fff59d;
+  --secondary-bg-color: #dce775;
   --primary-color: #388e3c;
   --secondary-color: #ffff;
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 576px) {
+  .hero {
+    margin: -200px 0px 0px 0px;
+    text-align: center;
+  }
+
   .hero h1 {
     font-size: 40px;
     line-height: 80px;
@@ -18,17 +25,40 @@
   .hero h3 {
     font-size: 20px;
   }
+
+  .project-1,
+  .project-2 {
+    text-align: center;
+  }
+
+  .project-2-image {
+    margin: 0;
+  }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 992px) {
   .hero {
     margin: -200px 0px 0px 0px;
     text-align: center;
   }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .project-1,
+  .project-2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 body {
-  background-color: #fff59d;
+  background: var(--body-bg-color);
 }
 
 h1,
@@ -87,16 +117,19 @@ p {
 }
 
 .hero {
-  padding: 300px 0px 100px 0px;
-  background: #dce775;
+  padding: 231px 0px 30px 0px;
+}
+
+.hero {
+  background: var(--secondary-bg-color);
 }
 
 .hero h1 {
   margin: 0px 0px -12px 0px;
 }
 
-.project-2-image {
-  margin: 0px 0px 0px 125px;
+.project-2 img {
+  margin: 0px 0px 0px 60px;
 }
 
 .project-1-image,
@@ -107,4 +140,8 @@ p {
 
 .contact-button {
   text-align: center;
+}
+
+.hero-image {
+  margin: 0px 0px 0px 0px;
 }

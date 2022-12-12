@@ -20,54 +20,74 @@
     <link rel="stylesheet" href="/styles/portfolio.css" />
   </head>
   <body>
-    <div class="d-flex flex-row flex-wrap justify-content-center hero">
-      <div class="align-self-center">
-        <img src="/images/memoji-1.png" alt="" width="250" />
-      </div>
-      <div class="p-2">
-        <h2>Hello! I am</h2>
-        <h1>Liza Fernandez</h1>
-        <h3>Frontend developer based in Australia</h3>
-        <a href="#" class="link-button primary-button">About me</a>
+    <div class="hero">
+      <div class="container hero-text">
+        <div class="d-flex row justify-content-center">
+          <div class="col-sm-3">
+            <div class="align-self-center">
+              <img
+                src="/images/memoji-1.png"
+                alt=""
+                width="250"
+                class="hero-image"
+              />
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <div class="p-2">
+              <h2>Hello! I am</h2>
+              <h1>Liza Fernandez</h1>
+              <h3 class="d-none d-md-block d-lg-block">
+                Frontend developer based in Australia
+              </h3>
+              <h3 class="d-block d-md-none d-lg-none">Frontend developer</h3>
+              <a href="#" class="link-button primary-button">About me</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <h4 class="text-center mb-5 mt-1">Projects</h4>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 align-self-center">
-          <h5>Great Barrier Reef Website</h5>
-          <p>
-            A basic website with facts about the Great Barrier Reef, and what
-            you can do on a trip there.
-          </p>
-          <a href="#" class="link-button primary-button">Launch Website</a>
-        </div>
-        <div class="col-sm-6">
-          <img
-            src="/images/gbr-project-image.png"
-            alt=""
-            width="400"
-            class="project-1-image mb-5"
-          />
+      <h4 class="text-center mb-5 mt-1">Projects</h4>
+      <div class="container project-1">
+        <div class="row">
+          <div class="col-sm-6">
+            <h5>Great Barrier Reef Website</h5>
+            <p>
+              A basic website with facts about the Great Barrier Reef, and what
+              you can do on a trip there.
+            </p>
+            <a href="#" class="link-button primary-button">Launch Website</a>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="/images/gbr-project-image.png"
+              alt=""
+              width="400"
+              class="mb-5 project-1-image d-none d-sm-block"
+            />
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <img
-            src="/images/weather-app-project.png"
-            alt=""
-            width="500"
-            class="project-2-image"
-          />
-        </div>
-        <div class="col-sm-6 align-self-center">
-          <h5>Weather App</h5>
-          <p>
-            A functional weather app that allows you to get the current weather
-            and 7-day forecast of a city that you search or from your current
-            location.
-          </p>
-          <a href="#" class="link-button primary-button">Launch App</a>
+      <div class="container project-2">
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/images/weather-app-project.png"
+              alt=""
+              width="500"
+              class="project-2-image d-none d-sm-block"
+            />
+          </div>
+          <div class="col-sm-6 align-self-center">
+            <h5>Weather App</h5>
+            <p>
+              A functional weather app that allows you to get the current
+              weather and 7-day forecast of a city that you search or from your
+              current location.
+            </p>
+            <a href="#" class="link-button primary-button">Launch App</a>
+          </div>
         </div>
       </div>
     </div>
