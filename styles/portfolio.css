@@ -34,6 +34,10 @@
     font-size: 26px;
   }
 
+  .projects {
+    text-align: center;
+  }
+
   body h6 {
     font-size: 30px;
   }
@@ -42,11 +46,6 @@
   .projects p {
     font-size: 12px;
   } */
-
-  .project-1,
-  .project-2 {
-    text-align: center;
-  }
 
   .project-2-image {
     margin: 0;
@@ -65,12 +64,6 @@
 
   .hero h3 {
     font-size: 20px;
-  }
-
-  .project-1,
-  .project-2 {
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -148,7 +141,6 @@ p {
 
 .project-1-image,
 .project-2-image {
-  border-radius: 25px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
