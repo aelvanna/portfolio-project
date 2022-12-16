@@ -7,66 +7,6 @@
   --secondary-font-family: "Poppins", sans-serif;
 }
 
-@media (min-width: 0px) and (max-width: 576px) {
-  .hero {
-    margin: -200px 0px 0px 0px;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-    line-height: 80px;
-  }
-
-  .hero h2 {
-    font-size: 20px;
-  }
-
-  .hero h3 {
-    font-size: 26px;
-  }
-
-  .projects h4 {
-    font-size: 40px;
-  }
-
-  .projects h5 {
-    font-size: 26px;
-  }
-
-  .projects {
-    text-align: center;
-  }
-
-  body h6 {
-    font-size: 30px;
-  }
-
-  /*
-  .projects p {
-    font-size: 12px;
-  } */
-
-  .project-2-image {
-    margin: 0;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 992px) {
-  .hero {
-    margin: -200px 0px 0px 0px;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 30px;
-  }
-
-  .hero h3 {
-    font-size: 20px;
-  }
-}
-
 body {
   background: var(--body-bg-color);
 }
@@ -88,7 +28,6 @@ h2 {
   font-family: var(--secondary-font-family);
   font-size: 40px;
   font-weight: 700;
-  margin: 0px 0px -15px 5px;
 }
 
 h3,
@@ -116,27 +55,24 @@ p {
   background: var(--primary-color);
   font-family: var(--secondary-font-family);
   font-size: 20px;
-  font-weight: bold;
   color: #ffff;
   text-decoration: none;
+  padding: 5px 24px;
+  line-height: 60px;
 }
 
-.primary-button {
-  padding: 5px 24px;
-  line-height: 50px;
+.contact-button {
+  text-align: center;
 }
 
 .hero {
+  margin: -200px 0px 0px 0px;
   padding: 231px 0px 30px 0px;
   background: var(--secondary-bg-color);
 }
 
-.hero h1 {
-  margin: 0px 0px -12px 0px;
-}
-
-.project-2 img {
-  margin: 0px 0px 0px 60px;
+.hero-image {
+  margin: 0px 0px 0px 110px;
 }
 
 .project-1-image,
@@ -144,10 +80,90 @@ p {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-.contact-button {
-  text-align: center;
+@media (min-width: 0px) and (max-width: 576px) {
+  h6 {
+    font-size: 30px;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    line-height: 65px;
+    margin: 0px 0px -5px 0px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+    margin: 0px 0px -10px 5px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .hero-image {
+    margin: 0px;
+  }
+
+  .projects {
+    text-align: center;
+  }
+
+  .projects h4 {
+    font-size: 40px;
+  }
+
+  .projects h5 {
+    font-size: 26px;
+  }
+
+  .project-2-image {
+    margin: 0;
+  }
 }
 
-.hero-image {
-  margin: 0px 0px 0px 0px;
+@media (min-width: 576px) and (max-width: 1024px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    margin: 0px 0px -35px 0px;
+  }
+
+  .hero h2 {
+    margin: 0px 0px -45px 5px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .hero-image {
+    margin: -35px 0px 0px 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    margin: -35px 0px 0px 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero h2 {
+    margin: 0px 0px -10px 5px;
+  }
+
+  .hero-image {
+    margin: 0px 0px 0px 105px;
+  }
+
+  .project-2-col {
+    padding: 0px 0px 0px 105px;
+  }
 }
