@@ -81,12 +81,12 @@ p {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-.about-section {
+.content-container {
   align-items: center;
   justify-content: center;
 }
 
-.about-section h1 {
+.content-container h1 {
   margin: 0px 0px -15px 0px;
 }
 
@@ -130,20 +130,21 @@ p {
     margin: 0;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
   }
 
-  .about-section h1 {
+  .content-container h1 {
     font-size: 64px;
-    margin: -25px 0px -50px 0px;
+    line-height: 80px;
+    margin: -10px 0px -50px 0px;
   }
 
-  .about-section h5 {
+  .content-container h5 {
     font-size: 25px;
   }
 
-  .about-section p {
+  .content-container p {
     font-size: 16px;
   }
 }
@@ -210,7 +211,7 @@ p {
     margin: -10px 0px 0px -5px;
   }
 
-  .about-section {
+  .content-container {
     height: 100%;
     width: 100%;
   }
