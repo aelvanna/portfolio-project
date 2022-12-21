@@ -84,8 +84,6 @@ p {
 .about-section {
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
 }
 
 .about-section h1 {
@@ -130,6 +128,23 @@ p {
 
   .project-2-image {
     margin: 0;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+  .about-section h1 {
+    font-size: 64px;
+    margin: -25px 0px -50px 0px;
+  }
+
+  .about-section h5 {
+    font-size: 25px;
+  }
+
+  .about-section p {
+    font-size: 16px;
   }
 }
 
@@ -193,6 +208,11 @@ p {
   .hero-image {
     position: relative;
     margin: -10px 0px 0px -5px;
+  }
+
+  .about-section {
+    height: 100%;
+    width: 100%;
   }
 }
 
