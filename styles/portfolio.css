@@ -94,6 +94,39 @@ a {
   margin: 0px 0px -15px 0px;
 }
 
+nav {
+  padding: 20px 0;
+  font-family: var(--secondary-font-family);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-title {
+  font-weight: bold;
+}
+
 @media (min-width: 0px) and (max-width: 575px) {
   h6 {
     font-size: 30px;
@@ -151,6 +184,10 @@ a {
   #contact-page h1 {
     font-size: 32px;
   }
+
+  nav p {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -178,6 +215,10 @@ a {
 
   h4 {
     margin: 0px 0px 30px 0px;
+  }
+
+  nav p {
+    font-size: 12px;
   }
 }
 
