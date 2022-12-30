@@ -52,10 +52,6 @@ p {
   font-size: 20px;
 }
 
-a {
-  color: var(--primary-color);
-}
-
 .link-button {
   border: 2px solid var(--primary-color);
   border-radius: 4px;
@@ -70,7 +66,8 @@ a {
 }
 
 .contact-button {
-  text-align: center;
+  padding: 20px 50px;
+  font-size: 25px;
 }
 
 .hero {
@@ -78,6 +75,10 @@ a {
   margin: -200px 0px 0px 0px;
   padding: 231px 0px 30px 0px;
   background: var(--secondary-bg-color);
+}
+
+.hero h4 {
+  font-size: 42px;
 }
 
 .project-1-image,
@@ -125,6 +126,52 @@ nav ul {
 
 .nav-title {
   font-weight: bold;
+}
+
+footer .contact-box {
+  background: var(--secondary-bg-color);
+  padding: 30px 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+footer .contact-buttons {
+  background: var(--secondary-bg-color);
+  padding: 20px 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+footer h4 {
+  font-size: 64px;
+  margin: 0px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .contact-links a {
+  margin: 0 20px;
+  border-radius: 10%;
+  padding: 15px 10px;
+  height: 18px;
+  width: 18px;
+  color: var(--primary-color);
+  background: var(--secondary-bg-color);
+  transition: all 100ms ease-in-out;
+  font-size: 18px;
+}
+
+footer .contact-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--body-bg-color);
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
@@ -187,6 +234,10 @@ nav ul {
 
   nav li {
     font-size: 12px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }
 
