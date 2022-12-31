@@ -147,31 +147,32 @@ footer h4 {
   margin: 0px;
 }
 
-footer .email-link {
+.email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
 
-footer .email-link:hover {
+.email-link:hover {
   color: var(--primary-color);
 }
 
-footer .contact-links a {
+footer .contact-links a,
+.contact-page-details a {
   margin: 0 20px;
-  border-radius: 10%;
+  border-radius: 30%;
   padding: 15px 10px;
   height: 18px;
   width: 18px;
   color: var(--primary-color);
-  background: var(--secondary-bg-color);
   transition: all 100ms ease-in-out;
   font-size: 18px;
 }
 
-footer .contact-links a:hover {
+footer .contact-links a:hover,
+.contact-page-details a:hover {
   color: var(--primary-color);
-  background-color: var(--body-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
