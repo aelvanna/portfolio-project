@@ -229,8 +229,12 @@ footer .contact-links a:hover,
     font-size: 25px;
   }
 
-  .content-container p {
-    font-size: 16px;
+  p {
+    font-size: 14px;
+  }
+
+  .email-link {
+    font-size: 18px;
   }
 
   #contact-page h1 {
@@ -239,10 +243,6 @@ footer .contact-links a:hover,
 
   nav li {
     font-size: 12px;
-  }
-
-  footer .email-link {
-    font-size: 18px;
   }
 
   footer .contact-box {
@@ -311,11 +311,6 @@ footer .contact-links a:hover,
   .hero-image {
     position: relative;
     margin: -10px 0px 0px -5px;
-  }
-
-  .content-container {
-    height: 100%;
-    width: 100%;
   }
 
   .contact-box {
