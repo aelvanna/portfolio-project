@@ -92,7 +92,7 @@ p {
 }
 
 .content-container h1 {
-  margin: 0px 0px -15px 0px;
+  margin: 10px 0px -15px 0px;
 }
 
 nav {
@@ -128,6 +128,10 @@ nav ul {
   font-weight: bold;
 }
 
+.see-projects-button {
+  margin-bottom: 100px;
+}
+
 footer .contact-box {
   background: var(--secondary-bg-color);
   padding: 30px 10px;
@@ -153,7 +157,7 @@ footer h4 {
   font-size: 24px;
 }
 
-.email-link:hover {
+footer .email-link:hover {
   color: var(--primary-color);
 }
 
@@ -240,6 +244,11 @@ footer .contact-links a:hover,
   footer .email-link {
     font-size: 18px;
   }
+
+  footer .contact-box {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media (min-width: 576px) {
@@ -309,8 +318,8 @@ footer .contact-links a:hover,
     width: 100%;
   }
 
-  .work-h1 {
-    padding-top: 150px;
+  .contact-box {
+    margin-top: 170px;
   }
 }
 
