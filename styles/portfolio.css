@@ -1,6 +1,6 @@
 :root {
-  --primary-bg-color: #fff59d;
-  --secondary-bg-color: #dce775;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #fff8b5;
   --primary-color: #388e3c;
   --secondary-color: #ffff;
   --primary-font-family: "Playfair Display", serif;
@@ -30,13 +30,13 @@ h2 {
   font-weight: 700;
 }
 
-h5 {
-  font-size: 32px;
-}
-
 h4 {
   font-size: 64px;
   margin: 0px 0px 15px 0px;
+}
+
+h5 {
+  font-size: 32px;
 }
 
 h6 {
@@ -77,9 +77,22 @@ p {
   font-size: 42px;
 }
 
-.project-1-image,
-.project-2-image {
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+.projects {
+  padding: 40px;
+}
+
+.project-1,
+.project-2,
+.project-4 {
+  padding: 60px 10px;
+}
+
+.project-4 img {
+  padding: 200px 0;
+}
+
+.project-description {
+  padding: 200px 30px;
 }
 
 .content-container {
@@ -92,7 +105,7 @@ p {
 }
 
 .top-navigation {
-  max-width: 1500px;
+  max-width: 1230px;
   margin: 0 auto;
 }
 
@@ -128,7 +141,6 @@ nav ul {
 .nav-title {
   font-weight: bold;
 }
-
 .see-projects-button {
   margin-bottom: 100px;
 }
@@ -177,134 +189,4 @@ footer .contact-links a:hover,
 .contact-page-details a:hover {
   color: var(--primary-color);
   background: var(--secondary-bg-color);
-}
-
-@media (min-width: 0px) and (max-width: 575px) {
-  h6 {
-    font-size: 30px;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-    line-height: 65px;
-    margin: 0px 0px -5px 0px;
-  }
-
-  .hero h2 {
-    font-size: 32px;
-    margin: 0px 0px -10px 5px;
-  }
-
-  .hero h3 {
-    font-size: 20px;
-  }
-
-  #projects {
-    text-align: center;
-  }
-
-  #projects h4 {
-    font-size: 40px;
-  }
-
-  #projects h5 {
-    font-size: 26px;
-  }
-
-  .project-2 {
-    margin: 10px 0px 0px 0px;
-  }
-
-  .project-2-image {
-    margin: 0;
-  }
-
-  .content-container h1 {
-    font-size: 64px;
-    line-height: 80px;
-    margin: -10px 0px -50px 0px;
-  }
-
-  .content-container h5 {
-    font-size: 25px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  .email-link {
-    font-size: 18px;
-  }
-
-  #contact-page h1 {
-    font-size: 32px;
-  }
-
-  nav li {
-    font-size: 12px;
-  }
-
-  footer .contact-box {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-@media (min-width: 576px) {
-  h4 {
-    margin: 0px 0px 30px 0px;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-    margin: 0px 0px -35px 0px;
-  }
-
-  .hero h2 {
-    margin: 0px 0px -45px 5px;
-  }
-
-  .hero h3 {
-    font-size: 20px;
-  }
-
-  .hero {
-    text-align: center;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero h1 {
-    margin: -50px 0px -40px 0px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero h1 {
-    font-size: 96px;
-    margin: 20px 0px 0px 0px;
-  }
-
-  .hero h3 {
-    font-size: 32px;
-  }
-
-  h4 {
-    margin: 0px 0px 40px 0px;
-  }
-
-  .contact-box {
-    margin-top: 170px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .hero h2 {
-    font-size: 50px;
-  }
-
-  .project-2-col {
-    padding: 0px 0px 0px 105px;
-  }
 }
