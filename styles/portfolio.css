@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color: #fff59d;
+  --primary-bg-color: #fff59d;
   --secondary-bg-color: #dce775;
   --primary-color: #388e3c;
   --secondary-color: #ffff;
@@ -7,11 +7,8 @@
   --secondary-font-family: "Poppins", sans-serif;
 }
 
-html,
 body {
-  background: var(--body-bg-color);
-  height: 100%;
-  width: 100%;
+  background: var(--primary-bg-color);
 }
 
 h1,
@@ -71,10 +68,9 @@ p {
 }
 
 .hero {
-  text-align: center;
-  margin: -200px 0px 0px 0px;
-  padding: 231px 0px 30px 0px;
   background: var(--secondary-bg-color);
+  margin: 0px auto;
+  padding: 80px 20px;
 }
 
 .hero h4 {
@@ -95,8 +91,13 @@ p {
   margin: 10px 0px -15px 0px;
 }
 
+.top-navigation {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 nav {
-  padding: 20px 0;
+  padding: 15px 0;
   font-family: var(--secondary-font-family);
 }
 
@@ -163,7 +164,6 @@ footer .email-link:hover {
 
 footer .contact-links a,
 .contact-page-details a {
-  margin: 0 20px;
   border-radius: 30%;
   padding: 15px 10px;
   height: 18px;
@@ -176,7 +176,7 @@ footer .contact-links a,
 footer .contact-links a:hover,
 .contact-page-details a:hover {
   color: var(--primary-color);
-  background-color: var(--secondary-bg-color);
+  background: var(--secondary-bg-color);
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
@@ -252,8 +252,8 @@ footer .contact-links a:hover,
 }
 
 @media (min-width: 576px) {
-  .hero {
-    text-align: center;
+  h4 {
+    margin: 0px 0px 30px 0px;
   }
 
   .hero h1 {
@@ -269,28 +269,14 @@ footer .contact-links a:hover,
     font-size: 20px;
   }
 
-  .hero-image {
-    position: relative;
-    margin: -35px 0px 0px -30px;
-  }
-
-  h4 {
-    margin: 0px 0px 30px 0px;
+  .hero {
+    text-align: center;
   }
 }
 
 @media (min-width: 768px) {
   .hero h1 {
     margin: -50px 0px -40px 0px;
-  }
-
-  .hero-text {
-    margin: 0px 10px 0px 30px;
-  }
-
-  .hero-image {
-    position: relative;
-    margin: -45px 0px 0px 10px;
   }
 }
 
@@ -308,11 +294,6 @@ footer .contact-links a:hover,
     margin: 0px 0px 40px 0px;
   }
 
-  .hero-image {
-    position: relative;
-    margin: -10px 0px 0px -5px;
-  }
-
   .contact-box {
     margin-top: 170px;
   }
@@ -321,11 +302,6 @@ footer .contact-links a:hover,
 @media (min-width: 1440px) {
   .hero h2 {
     font-size: 50px;
-  }
-
-  .hero-image {
-    position: relative;
-    margin: 0px 0px 0px 200px;
   }
 
   .project-2-col {
