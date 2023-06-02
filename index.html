@@ -65,89 +65,123 @@
         </div>
       </div>
     </header>
-    <section class="projects container">
-      <h2 class="text-center">Projects</h2>
-      <div>
+    <div class="container">
       <div class="row">
-        <div class="col-sm-4 d-flex align-items-stretch text-center">
-          <div class="card">
-            <img
-              src="/images/react-weather-app.png"
-              alt="React Weather App"
-              class="img-fluid card-img-top"
-            />
-            <div class="card-body">
-              <div class="card-title">
-                <h2>React Weather App</h2>
-              </div>
-              <p class="card-text">
-                Technologies used: React.js; Javascript; Bootstrap
-              </p>
-              <a href="/work.html#react-weather-app" class="link-button"
-                >Learn more</a
-              >
-            </div>
-          </div>
+        <div class="col-6">
+          <section class="tools-technologies">
+            <h2>Tools & Technologies</h2>
+            <p>
+              I currently use and have experience in the following tools and
+              technologies:
+            </p>
+            <ul>
+              <h3>Tools</h3>
+              <li>VSCode</li>
+              <li>Windows</li>
+              <li>
+                <a
+                  href="https://github.com/aelvanna/"
+                  target="_blank"
+                  title="GitHub"
+                  >GitHub</a
+                >
+              </li>
+              <h3>Technologies</h3>
+              <li>React.js</li>
+              <li>Bootstrap</li>
+              <li>Responsive development</li>
+            </ul>
+          </section>
         </div>
-        <div class="col-sm-4 d-flex align-items-stretch text-center">
-          <div class="card">
-            <img
-              src="/images/advanced-react-world-clock-app.png"
-              alt="World Clock App"
-              class="img-fluid card-img-top"
-            />
-            <div class="card-body">
-              <div class="card-title">
-                <h2>World Clock App</h2>
+        <div class="col-6">
+          <h2>Projects</h2>
+          <section class="projects">
+            <div class="container">
+              <div id="carouselProjects" class="carousel carousel-dark slide">
+                <div class="carousel-arrows">
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselProjects"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    carouselProjects
+                    data-bs-target="#carouselProjects"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/images/music-artist-website-project.png"
+                      alt="music artist website"
+                      class="d-block w-100"
+                    />
+                    <div class="image-description text-center mt-4">
+                      <h2>Music Artist Website</h2>
+                      <p>
+                        Technologies used: HTML, CSS, Responsive Development
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/images/react-weather-app.png"
+                      alt="React Weather App"
+                      class="d-block w-100"
+                    />
+                    <div class="image-description text-center mt-4">
+                      <h2>React Weather App</h2>
+                      <p>Technologies used: React.js; Javascript; Bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/images/advanced-react-world-clock-app.png"
+                      alt="World Clock App"
+                      class="d-block w-100"
+                    />
+                    <div class="image-description text-center mt-4">
+                      <h2>World Clock App</h2>
+                      <p>Technologies used: Javascript; Moment.js</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/images/dictionary-app.png"
+                      alt="dictionary-app"
+                      class="d-block w-100"
+                    />
+                    <div class="image-description text-center mt-4">
+                      <h2>Dictionary App</h2>
+                      <p>Technologies used: React.js; Javascript;</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <p class="card-text">Technologies used: Javascript; Moment.js</p>
-              <a href="/work.html#world-clock-app" class="link-button"
-                >Learn more</a
-              >
             </div>
-          </div>
-        </div>
-        <div class="col-sm-4 d-flex align-items-stretch text-center">
-          <div class="card">
-            <img
-              src="/images/dictionary-app.png"
-              alt="dictionary-app"
-              class="img-fluid card-img-top"
-            />
-            <div class="card-body">
-              <div class="card-title">
-                <h2>Dictionary App</h2>
-              </div>
-              <p class="card-text">Technologies used: React.js; Javascript;</p>
-              <a href="/work.html#dictionary-app" class="link-button"
-                >Learn More</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="row mt-4">
-        <div class="col-sm-4 d-flex text-center">
-          <div class="card">
-            <img
-              src="/images/music-artist-website-project.png"
-              alt="music artist website"
-              class="img-fluid card-img-top"
-            />
-            <div class="card-body">
-              <div class="card-title">
-                <h2>Music Artist Website</h2>
-              </div>
-              <p class="card-text">Technologies used: Responsive Development</p>
-              <a href="work.html#music-artist-website" class="link-button"
-                >Learn More</a
-              >
-            </div>
-          </div>
-        </div>
+            <a href="work.html#music-artist-website" class="link-button"
+              >Learn More</a
+            >
+          </section>
         </div>
       </div>
-    </section>
+    </div>
     <footer>
       <div class="contact-box container d-flex justify-content-around">
         <div>
