@@ -73,7 +73,7 @@ p {
   background: var(--secondary-bg-color);
   border-radius: 10px;
   margin: 0px auto;
-  padding: 80px 20px;
+  padding: 10px 0 40px;
 }
 
 .hero h4 {
@@ -83,6 +83,10 @@ p {
 .tools-technologies li {
   list-style-position: inside;
   font-size: 20px;
+}
+
+section.tools-technologies {
+  font-family: var(--secondary-font-family);
 }
 
 .projects {
@@ -100,10 +104,6 @@ p {
   padding: 60px 10px;
 }
 
-.project-4 img {
-  padding: 200px 0;
-}
-
 .project-description {
   padding: 200px 30px;
 }
@@ -118,12 +118,12 @@ p {
 }
 
 .top-navigation {
-  max-width: 1230px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 nav {
-  padding: 15px 0;
+  padding: 5px 0;
   font-family: var(--secondary-font-family);
 }
 
@@ -160,6 +160,7 @@ nav ul {
 
 footer .contact-box {
   background: var(--secondary-bg-color);
+  margin-top: 100px;
   padding: 30px 10px;
   border-radius: 10px;
   justify-content: center;
