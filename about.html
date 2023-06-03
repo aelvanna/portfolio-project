@@ -25,33 +25,45 @@
   </head>
   <body class="about-page">
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <ul class="nav-title">
-          <span>
-            <li class="d-none d-md-block">Liza Fernandez</li>
-            <li class="d-sm-block d-md-none">LF</li>
-          </span>
-        </ul>
-        <ul>
-          <span class="nav-links">
-            <li><a href="/index.html" title="Home">Home</a></li>
-            <li class="active"><a href="/about.html">About</a></li>
-            <li><a href="/work.html" title="Work">Work</a></li>
-            <li><a href="/contact.html" title="Contact">Contact</a></li>
-          </span>
-        </ul>
-      </nav>
+      <div class="top-navigation container">
+        <nav class="d-flex justify-content-between">
+          <ul>
+            <strong><li>Liza Fernandez</li></strong>
+          </ul>
+          <ul>
+            <span class="nav-links">
+              <li><a href="/index.html" title="Home">Home</a></li>
+              <li class="active">
+                <a href="/about.html" title="About">About</a>
+              </li>
+              <li><a href="/work.html" title="Work">Work</a></li>
+              <li><a href="/index.html#contact" title="Contact">Contact</a></li>
+            </span>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div class="container d-flex flex-column content-container text-center">
-      <h1 class="text-center">About Me</h1>
-      <img
-        src="/images/memoji-about.png"
-        alt="Liza memoji image"
-        width="250"
-        class="mb-2"
-      />
-      <h5 class="mb-1">Hi I am Liza Fernandez</h5>
-      <h5>Front-end Developer, based in Australia</h5>
+    <header class="hero">
+      <div class="d-flex justify-content-center">
+        <div>
+          <img
+            src="/images/memoji-about.png"
+            alt="Liza memoji image"
+            width="250"
+            class="mb-2"
+          />
+        </div>
+        <div class="hero-text align-self-center">
+          <h1>About Me</h1>
+          <h3 class="d-none d-md-block d-lg-block">
+            Front-end developer based in Australia
+          </h3>
+          <h3 class="d-block d-md-none d-lg-none">Frontend developer</h3>
+        </div>
+      </div>
+    </header>
+    <div class="container d-flex flex-column content-container">
+      <h2>My Journey into Web Development</h2>
       <p>
         I have always had an interest in web development, having learnt basic
         HTML and CSS in 2010. In August 2022, I realised that I was experiencing
@@ -66,6 +78,7 @@
             href="https://www.shecodes.io/graduates/54228-liza-fernandez"
             class="link-button"
             title="view SheCodes Profile Button"
+            target="_blank"
             >View SheCodes Profile</a
           >
         </div>
@@ -74,54 +87,41 @@
             href="/index.html#projects"
             class="link-button see-projects-button"
             title="button to see projects"
+            target="_blank"
             >See my projects</a
           >
         </div>
       </div>
     </div>
     <footer>
-      <div class="contact-box container d-flex justify-content-around">
+      <div class="contact-box d-flex justify-content-around" id="contact">
         <div>
-          <h4>Work Inquiry</h4>
-          <p class="text-muted">Let's work together</p>
+          <h4>Let's get in touch!</h4>
+
+          <p class="text-center">
+            <a
+              href="mailto:lmarie.fernandez@gmail.com"
+              target="_blank"
+              class="email-link"
+              title="Send email"
+              >lmarie.fernandez@gmail.com</a
+            >
+          </p>
+          <div class="contact-links text-center">
+            <a
+              href="https://linkedin.com/in/lizamfernandez"
+              target="_blank"
+              title="link to linkedin"
+              ><i class="fa-solid fa-brands fa-linkedin fa-2x"></i
+            ></a>
+            <a
+              href="https://github.com/aelvanna/"
+              target="_blank"
+              title="link to github"
+              ><i class="fa-solid fa-brands fa-github fa-2x"></i
+            ></a>
+          </div>
         </div>
-        <div>
-          <a
-            href="/contact.html"
-            class="link-button contact-button"
-            title="button to contact page"
-            >Contact Me</a
-          >
-        </div>
-      </div>
-      <p class="mt-4 text-center">
-        <a
-          href="mailto:lmarie.fernandez@gmail.com"
-          target="_blank"
-          class="email-link"
-          title="send email"
-          >lmarie.fernandez@gmail.com</a
-        >
-      </p>
-      <div class="contact-links text-center">
-        <a
-          href="https://linkedin.com/in/lizamfernandez"
-          target="_blank"
-          title="linkedin icon"
-          ><i class="fa-solid fa-brands fa-linkedin fa-2x"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/lizamarie_f/"
-          target="_blank"
-          title="instagram icon"
-          ><i class="fa-solid fa-brands fa-instagram fa-2x"></i
-        ></a>
-        <a
-          href="https://github.com/aelvanna/"
-          target="_blank"
-          title="github icon"
-          ><i class="fa-solid fa-brands fa-github fa-2x"></i
-        ></a>
       </div>
     </footer>
     <script

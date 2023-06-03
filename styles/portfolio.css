@@ -21,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   line-height: 100px;
 }
 
@@ -109,7 +109,6 @@ section.tools-technologies {
 }
 
 .content-container {
-  align-items: center;
   justify-content: center;
 }
 
@@ -166,7 +165,7 @@ footer .contact-box {
   justify-content: center;
 }
 
-footer .contact-buttons {
+footer .contact-button {
   background: var(--secondary-bg-color);
   padding: 20px 10px;
   border-radius: 10px;
