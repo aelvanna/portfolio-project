@@ -25,26 +25,36 @@
   </head>
   <body class="work-page">
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <ul class="nav-title">
-          <span>
-            <li class="d-none d-md-block">Liza Fernandez</li>
-            <li class="d-sm-block d-md-none">LF</li>
-          </span>
-        </ul>
-        <ul>
-          <span class="nav-links">
-            <li><a href="/index.html" title="Home">Home</a></li>
-            <li><a href="/about.html" title="About">About</a></li>
-            <li class="active" title="Work"><a href="/work.html">Work</a></li>
-            <li><a href="/index.html#contact" title="Contact">Contact</a></li>
-          </span>
-        </ul>
-      </nav>
+      <div class="top-navigation">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>Liza Fernandez</strong></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+              <a href="/index.html" title="Home" class="nav-link">Home</a>
+              <a href="/about.html" class="nav-link">About</a>
+              <a href="/work.html" class="nav-link active">Work</a>
+              <a href="/index.html#contact" class="nav-link">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
     <header class="hero">
       <div class="d-flex justify-content-center">
-        <div class="hero-text align-self-center">
+        <div class="align-self-center">
           <h1>Projects</h1>
           <h3 class="d-none d-md-block d-lg-block">
             See what I have been working on

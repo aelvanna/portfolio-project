@@ -31,6 +31,10 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 26px;
+}
+
 h4 {
   font-size: 64px;
   margin: 0px 0px 15px 0px;
@@ -64,7 +68,7 @@ p {
   line-height: 60px;
 }
 
-.contact-button {
+.work-contact-button {
   padding: 20px 50px;
   font-size: 25px;
 }
@@ -116,43 +120,17 @@ section.tools-technologies {
   margin: 10px 0px -15px 0px;
 }
 
-.top-navigation {
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
 nav {
   padding: 5px 0;
   font-family: var(--secondary-font-family);
 }
 
-nav a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--primary-color);
+.navbar-nav .active {
+  color: var(--primary-color) !important;
   font-weight: bold;
   transition: all 100ms ease-in-out;
 }
 
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 10px;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-.nav-title {
-  font-weight: bold;
-}
 .see-projects-button {
   margin-bottom: 100px;
 }
@@ -165,7 +143,7 @@ footer .contact-box {
   justify-content: center;
 }
 
-footer .contact-button {
+footer .contact-buttons {
   background: var(--secondary-bg-color);
   padding: 20px 10px;
   border-radius: 10px;
@@ -203,4 +181,71 @@ footer .contact-links a:hover,
 .contact-page-details a:hover {
   color: var(--primary-color);
   background: var(--secondary-bg-color);
+}
+
+@media screen and (max-width: 426px) {
+  header h1 {
+    line-height: 50px;
+    text-align: center;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  footer h4 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  a.email-link {
+    font-size: 16px;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  header h1 {
+    font-size: 42px;
+  }
+
+  header h3 {
+    font-size: 26px;
+    line-height: 50px;
+  }
+
+  hero img {
+    max-width: 200px;
+  }
+
+  .home-text h2 {
+    font-size: 26px;
+  }
+
+  .home-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header h1 {
+    font-size: 70px;
+  }
+
+  .home-text h2 {
+    font-size: 30px;
+  }
 }
