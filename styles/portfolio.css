@@ -40,14 +40,6 @@ h4 {
   margin: 0px 0px 15px 0px;
 }
 
-h5 {
-  font-size: 32px;
-}
-
-h6 {
-  font-size: 40px;
-}
-
 p {
   font-family: var(--secondary-font-family);
   font-weight: normal;
@@ -183,6 +175,16 @@ footer .contact-links a:hover,
   background: var(--secondary-bg-color);
 }
 
+@media screen and (max-width: 320px) {
+  .hero {
+    padding: 10px 0 10px;
+  }
+
+  .link-button {
+    padding: 5px 10px;
+  }
+}
+
 @media screen and (max-width: 426px) {
   header h1 {
     line-height: 50px;
@@ -202,7 +204,16 @@ footer .contact-links a:hover,
     font-size: 16px;
   }
 
-  .hero-container {
+  .container {
+    text-align: center;
+  }
+
+  .project-description {
+    padding: 25px 30px;
+  }
+
+  .hero-container,
+  .about-hero-container {
     flex-direction: column;
     text-align: center;
   }
@@ -215,6 +226,11 @@ footer .contact-links a:hover,
   .col-6 {
     width: 100%;
   }
+
+  #project-2,
+  #project-4 {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -223,8 +239,7 @@ footer .contact-links a:hover,
   }
 
   header h3 {
-    font-size: 26px;
-    line-height: 50px;
+    font-size: 24px;
   }
 
   hero img {
@@ -237,6 +252,10 @@ footer .contact-links a:hover,
 
   .home-text p {
     font-size: 18px;
+  }
+
+  .about-page h2 {
+    font-size: 32px;
   }
 }
 
