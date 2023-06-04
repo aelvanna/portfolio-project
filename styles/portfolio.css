@@ -60,11 +60,6 @@ p {
   line-height: 60px;
 }
 
-.work-contact-button {
-  padding: 20px 50px;
-  font-size: 25px;
-}
-
 .hero {
   background: var(--secondary-bg-color);
   border-radius: 10px;
